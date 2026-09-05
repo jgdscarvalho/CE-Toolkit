@@ -42,9 +42,6 @@ local function search_yukimura_address()
       error("No address has been found! Are you running the script with an empty save?")
    end
 
-   local module_address = getAddress("pcsx2-qt.exe")
-   local found = 0
-
    -- Iterate through the scan results to find the first address after the module's base address.
    -- This ensures the correct address is returned, since multiple static instances of Yukimura's data may be found.
    for i = 0, scan.Count - 1 do
