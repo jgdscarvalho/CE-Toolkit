@@ -1,0 +1,13 @@
+{
+    "Lua.diagnostics.globals": [
+        "AddressList",
+        "AOBScan",
+        "getAddress",
+        "getAddressList",
+        "getMainForm",
+        "vtByteArray",
+        "vtDword",
+        "vtQword",
+        "vtByte"
+    ]
+}
